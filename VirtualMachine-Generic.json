@@ -181,7 +181,7 @@
       }
     },
     "networkSecurityGroupsName":{  
-      "type":"String",
+      "type":"string",
       "defaultValue":"nsg-puppetdemo",
       "metadata":{  
         "description":"The name of the network security group that will be created and attached"
@@ -218,7 +218,7 @@
     },
     "storageAccountName":{  
       "type":"string",
-      "defaultValue":"",
+      "defaultValue":"ericpdemo3disk",
       "metadata":{  
         "description":"The name of the storage account to be created or exists already"
       }
